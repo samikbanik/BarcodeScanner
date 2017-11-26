@@ -1,4 +1,15 @@
-import { LOGIN, USERNAME_CHANGED, PASSWORD_CHANGED, SHOW_CAMERA, CLOSE_CAMERA, GET_PRODUCT, GET_PRODUCT_SUCCESS, GET_PRODUCT_FAIL, SET_BARCODE, ADD_TO_CART, REMOVE } from './types';
+import {
+  LOGIN,
+  USERNAME_CHANGED,
+  PASSWORD_CHANGED,
+  SHOW_CAMERA,
+  CLOSE_CAMERA,
+  GET_PRODUCT,
+  GET_PRODUCT_SUCCESS,
+  GET_PRODUCT_FAIL,
+  SET_BARCODE,
+  ADD_TO_CART, REMOVE
+} from './types';
 import { products } from '../data/Products';
 
 export const login = (username) => {

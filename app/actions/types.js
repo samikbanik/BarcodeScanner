@@ -1,0 +1,11 @@
+export const LOGIN = 'login';
+export const USERNAME_CHANGED = 'username_changed';
+export const PASSWORD_CHANGED = 'password_changed';
+export const SHOW_CAMERA = 'show_camera';
+export const CLOSE_CAMERA = 'close_camera';
+export const SET_BARCODE = 'set_barcode';
+export const GET_PRODUCT = 'get_product';
+export const GET_PRODUCT_SUCCESS = 'get_product_details';
+export const GET_PRODUCT_FAIL = 'get_product_fail';
+export const ADD_TO_CART = 'add_to_cart';
+export const REMOVE = 'remove';
